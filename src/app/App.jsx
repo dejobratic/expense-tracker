@@ -1,10 +1,14 @@
 import React from "react"
 
+import Main from "app/views/Main"
+
+import "app/App.css"
+
 const App = () => {
   return (
-    <div>
-      <h1>Expense Tracker</h1>
-    </div>
+    <>
+      <Main />
+    </>
   )
 }
 
