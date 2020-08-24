@@ -2,14 +2,16 @@ import React from "react"
 
 const Expense = ({ expense = {} }) => {
   return (
-    <div class="item clearfix" id="expense-0">
-      <div class="item__description">{expense.title}</div>
-      <div class="right clearfix">
-        <div class="item__value">{`- ${expense.amount}`}</div>
-        <div class="item__percentage">{`100%`}</div>
-        <div class="item__delete">
-          <button class="item__delete--btn">
-            <i class="ion-ios-close-outline"></i>
+    <div className="item clearfix" id="expense-0">
+      <div className="item__description">{expense.title}</div>
+      <div className="right clearfix">
+        <div className="item__value">{expense.formattedAmount}</div>
+        <div className="item__percentage">
+          {expense.formattedBudgetPercentage}
+        </div>
+        <div className="item__delete">
+          <button className="item__delete--btn">
+            <i className="ion-ios-close-outline"></i>
           </button>
         </div>
       </div>

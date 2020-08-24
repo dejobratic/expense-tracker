@@ -5,7 +5,7 @@ const Income = ({ income = {} }) => {
     <div className="item clearfix" id="income-0">
       <div className="item__description">{income.title}</div>
       <div className="right clearfix">
-        <div className="item__value">{`+ ${income.amount}`}</div>
+        <div className="item__value">{income.formattedAmount}</div>
         <div className="item__delete">
           <button className="item__delete--btn">
             <i className="ion-ios-close-outline"></i>

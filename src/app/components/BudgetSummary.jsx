@@ -5,7 +5,7 @@ import TotalExpenses from "app/components/TotalExpenses"
 
 import "app/components/BudgetSummary.css"
 
-const BudgetSummary = () => {
+const BudgetSummary = ({ budget = {} }) => {
   const getCurrentDate = () => {
     const date = new Date()
     const month = date.toLocaleString("default", { month: "long" })
@@ -18,12 +18,9 @@ const BudgetSummary = () => {
         Available Budget in{" "}
         <span className="budget__title--month">{getCurrentDate()}</span>:
       </div>
-
-      <div className="budget__value">+ 2,345.64</div>
-
-      <TotalIncome />
-
-      <TotalExpenses />
+      <div className="budget__value">{budget.formattedTotalAmount}</div>
+      <TotalIncome amount={budget.incomes.formattedTotalAmount} />
+      <TotalExpenses amount={budget.expenses.formattedTotalAmount} />
     </div>
   )
 }
