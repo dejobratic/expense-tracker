@@ -9,11 +9,14 @@ class Budget {
   constructor() {
     this.incomes = new IncomeCollection()
     this.expenses = new ExpensesCollection()
+  }
 
-    this.totalAmount = (() =>
-      this.incomes.totalAmount - this.expenses.totalAmount)()
+  get totalAmount() {
+    return this.incomes.totalAmount - this.expenses.totalAmount
+  }
 
-    this.formattedTotalAmount = (() => toFormattedString(this.totalAmount))()
+  get formattedTotalAmount() {
+    return toFormattedString(this.totalAmount)
   }
 }
 

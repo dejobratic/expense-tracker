@@ -8,7 +8,7 @@ const TotalExpenses = ({ amount = "- 0.00" }) => {
       <div className="budget__expenses--text">Expenses</div>
       <div className="right clearfix">
         <div className="budget__expenses--value">{amount}</div>
-        <div className="budget__expenses--percentage">45%</div>
+        <div className="budget__expenses--percentage">&nbsp;</div>
       </div>
     </div>
   )

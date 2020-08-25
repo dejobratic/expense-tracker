@@ -1,6 +1,6 @@
 import React from "react"
 
-import "app/components/BudgetDetails.css"
+import "app/components/BudgetForm.css"
 
 const DropdownList = ({ value, onChange, children }) => {
   return (

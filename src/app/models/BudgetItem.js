@@ -7,7 +7,6 @@ class BudgetItem {
     this.id = uuid()
     this.title = title
     this.amount = parseFloat(amount)
-    this.formattedAmount = (() => toFormattedString(this.amount))()
 
     this.throwIfInvalid()
   }
@@ -19,14 +18,14 @@ class BudgetItem {
 }
 
 class Income extends BudgetItem {
-  constructor(title, amount) {
-    super(title, amount)
+  get formattedAmount() {
+    return toFormattedString(this.amount)
   }
 }
 
 class Expense extends BudgetItem {
-  constructor(title, amount) {
-    super(title, amount)
+  get formattedAmount() {
+    return toFormattedString(-this.amount)
   }
 }
 

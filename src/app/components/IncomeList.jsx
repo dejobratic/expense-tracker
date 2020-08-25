@@ -1,5 +1,6 @@
 import React from "react"
-import Income from "./Income"
+
+import Income from "app/components/Income"
 
 const IncomeList = ({ items = [] }) => {
   return (

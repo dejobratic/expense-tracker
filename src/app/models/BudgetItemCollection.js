@@ -20,18 +20,14 @@ class BudgetItemCollection {
 }
 
 class IncomeCollection extends BudgetItemCollection {
-  constructor() {
-    super()
-
-    this.formattedTotalAmount = (() => toFormattedString(this.totalAmount))()
+  get formattedTotalAmount() {
+    return toFormattedString(this.totalAmount)
   }
 }
 
 class ExpensesCollection extends BudgetItemCollection {
-  constructor() {
-    super()
-
-    this.formattedTotalAmount = (() => toFormattedString(-this.totalAmount))()
+  get formattedTotalAmount() {
+    return toFormattedString(-this.totalAmount)
   }
 }
 
