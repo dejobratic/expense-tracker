@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/expense-tracker/static/css/main.ed433650.chunk.css",
+    "main.js": "/expense-tracker/static/js/main.0fac3b9c.chunk.js",
+    "main.js.map": "/expense-tracker/static/js/main.0fac3b9c.chunk.js.map",
+    "runtime-main.js": "/expense-tracker/static/js/runtime-main.91d22b83.js",
+    "runtime-main.js.map": "/expense-tracker/static/js/runtime-main.91d22b83.js.map",
+    "static/js/2.1eb66d05.chunk.js": "/expense-tracker/static/js/2.1eb66d05.chunk.js",
+    "static/js/2.1eb66d05.chunk.js.map": "/expense-tracker/static/js/2.1eb66d05.chunk.js.map",
+    "index.html": "/expense-tracker/index.html",
+    "precache-manifest.74fb8c429eab90f03e955894f7983cd9.js": "/expense-tracker/precache-manifest.74fb8c429eab90f03e955894f7983cd9.js",
+    "service-worker.js": "/expense-tracker/service-worker.js",
+    "static/css/main.ed433650.chunk.css.map": "/expense-tracker/static/css/main.ed433650.chunk.css.map",
+    "static/js/2.1eb66d05.chunk.js.LICENSE.txt": "/expense-tracker/static/js/2.1eb66d05.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/expense-tracker/static/media/budget-background.74f71ff3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91d22b83.js",
+    "static/js/2.1eb66d05.chunk.js",
+    "static/css/main.ed433650.chunk.css",
+    "static/js/main.0fac3b9c.chunk.js"
+  ]
+}
