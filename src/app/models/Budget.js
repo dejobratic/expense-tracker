@@ -7,12 +7,28 @@ import { toFormattedString } from "app/common/BudgetExtensions"
 
 class Budget {
   constructor() {
-    this.incomes = new IncomeCollection()
-    this.expenses = new ExpensesCollection()
+    this._incomes = new IncomeCollection()
+    this._expenses = new ExpensesCollection()
+  }
+
+  set incomes(incomes) {
+    this._incomes = incomes
+  }
+
+  get incomes() {
+    return this._incomes
+  }
+
+  set expenses(expenses) {
+    this._expenses = expenses
+  }
+
+  get expenses() {
+    return this._expenses
   }
 
   get totalAmount() {
-    return this.incomes.totalAmount - this.expenses.totalAmount
+    return parseFloat(this.incomes.totalAmount - this.expenses.totalAmount)
   }
 
   get formattedTotalAmount() {
