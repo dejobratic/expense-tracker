@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/expense-tracker/v1/static/css/main.70c90cab.chunk.css",
-    "main.js": "/expense-tracker/v1/static/js/main.c3fc9a98.chunk.js",
-    "main.js.map": "/expense-tracker/v1/static/js/main.c3fc9a98.chunk.js.map",
-    "runtime-main.js": "/expense-tracker/v1/static/js/runtime-main.deed24ad.js",
-    "runtime-main.js.map": "/expense-tracker/v1/static/js/runtime-main.deed24ad.js.map",
-    "static/js/2.1eb66d05.chunk.js": "/expense-tracker/v1/static/js/2.1eb66d05.chunk.js",
-    "static/js/2.1eb66d05.chunk.js.map": "/expense-tracker/v1/static/js/2.1eb66d05.chunk.js.map",
-    "index.html": "/expense-tracker/v1/index.html",
-    "precache-manifest.5e3a57890c861416c2ae632e5d60c76c.js": "/expense-tracker/v1/precache-manifest.5e3a57890c861416c2ae632e5d60c76c.js",
-    "service-worker.js": "/expense-tracker/v1/service-worker.js",
-    "static/css/main.70c90cab.chunk.css.map": "/expense-tracker/v1/static/css/main.70c90cab.chunk.css.map",
-    "static/js/2.1eb66d05.chunk.js.LICENSE.txt": "/expense-tracker/v1/static/js/2.1eb66d05.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/expense-tracker/v1/static/media/budget-background.74f71ff3.png"
+    "main.css": "/expense-tracker/static/css/main.ed433650.chunk.css",
+    "main.js": "/expense-tracker/static/js/main.0fac3b9c.chunk.js",
+    "main.js.map": "/expense-tracker/static/js/main.0fac3b9c.chunk.js.map",
+    "runtime-main.js": "/expense-tracker/static/js/runtime-main.91d22b83.js",
+    "runtime-main.js.map": "/expense-tracker/static/js/runtime-main.91d22b83.js.map",
+    "static/js/2.1eb66d05.chunk.js": "/expense-tracker/static/js/2.1eb66d05.chunk.js",
+    "static/js/2.1eb66d05.chunk.js.map": "/expense-tracker/static/js/2.1eb66d05.chunk.js.map",
+    "index.html": "/expense-tracker/index.html",
+    "precache-manifest.3180549941a4396c7bd83aa030650b36.js": "/expense-tracker/precache-manifest.3180549941a4396c7bd83aa030650b36.js",
+    "service-worker.js": "/expense-tracker/service-worker.js",
+    "static/css/main.ed433650.chunk.css.map": "/expense-tracker/static/css/main.ed433650.chunk.css.map",
+    "static/js/2.1eb66d05.chunk.js.LICENSE.txt": "/expense-tracker/static/js/2.1eb66d05.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/expense-tracker/static/media/budget-background.74f71ff3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.deed24ad.js",
+    "static/js/runtime-main.91d22b83.js",
     "static/js/2.1eb66d05.chunk.js",
-    "static/css/main.70c90cab.chunk.css",
-    "static/js/main.c3fc9a98.chunk.js"
+    "static/css/main.ed433650.chunk.css",
+    "static/js/main.0fac3b9c.chunk.js"
   ]
 }
